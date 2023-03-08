@@ -19,18 +19,50 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Thi theo bộ đề"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="164dp" />
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="@string/thi_theo_b"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="210dp" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="164dp" />
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Ôn tập câu hỏi"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="60 câu điểm liệt"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="Lý thuyết"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="@string/bien_bao"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="@string/meothi"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="569dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

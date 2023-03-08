@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Luyện Thi Bằng Lái Xe B1</string>
+    <string name="thi_theo_b">Thi theo bộ đề</string>
+    <string name="meothi">Mẹo thi</string>
+    <string name="bien_bao">Bien bao</string>
 </resources>
