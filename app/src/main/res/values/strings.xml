@@ -3,4 +3,7 @@
     <string name="thi_theo_b">Thi theo bộ đề</string>
     <string name="meothi">Mẹo thi</string>
     <string name="bien_bao">Bien bao</string>
+    <string name="Ly_Thuyet">Lý thuyết</string>
+    <string name="diem_liet">60 câu điểm liệt</string>
+    <string name="on_tap_cau_hoi">Ôn tập câu hỏi</string>
 </resources>
