@@ -7,7 +7,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Luyen_thi_bang_lai_xe"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LuyệnThiBằngLáiXeB1"
@@ -20,6 +20,7 @@
                 android:value="" />
         </activity>
         <activity
+            android:label="Cau hoi"
             android:name=".Activity2"
             android:exported="false">
             <meta-data
