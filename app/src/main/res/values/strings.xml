@@ -15,4 +15,10 @@
     <string name="button6">Button6</string>
     <string name="lt">Luyện thi</string>
     <string name="Thi_theo_bộ_đề">Thi_theo_bộ_đề</string>
+    <string name="Đ1">Đề 1</string>
+    <string name="Đ2">Đề 2</string>
+    <string name="Đ3">Đề 3</string>
+    <string name="Đ4">Đề 4</string>
+    <string name="Đ5">Đề 5</string>
+    <string name="Đ6">Đề 6</string>
 </resources>

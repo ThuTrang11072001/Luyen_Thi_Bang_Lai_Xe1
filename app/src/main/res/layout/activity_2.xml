@@ -18,21 +18,24 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Đề 1" />
+            android:text="@string/Đ1"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/button15"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Đề 2" />
+            android:text="@string/Đ2"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/button14"
             android:layout_width="wrap_content"
             android:layout_height="70dp"
             android:layout_weight="1"
-            android:text="Đề 3" />
+            android:text="@string/Đ3"
+            style="?android:attr/buttonBarButtonStyle" />
     </LinearLayout>
 
     <LinearLayout
@@ -45,20 +48,23 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Đề 4" />
+            android:text="@string/Đ4"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/button12"
             android:layout_width="wrap_content"
             android:layout_height="70dp"
             android:layout_weight="1"
-            android:text="Đề 5" />
+            android:text="@string/Đ5"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/button13"
             android:layout_width="wrap_content"
             android:layout_height="70dp"
             android:layout_weight="1"
-            android:text="Đề 6" />
+            android:text="@string/Đ6"
+            style="?android:attr/buttonBarButtonStyle" />
     </LinearLayout>
 </LinearLayout>
