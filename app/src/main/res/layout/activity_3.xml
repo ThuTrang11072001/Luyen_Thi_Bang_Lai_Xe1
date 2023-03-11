@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF5EE"
+    tools:context=".Activity3">
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="wrap_content"
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="129dp"
-        android:layout_marginTop="226dp"
-        android:text="3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="@string/Đề_4"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold">
+    </TextView>
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:id="@+id/spinner_category">
+    </Spinner>
+    <TextView
+        android:id="@+id/textview_high_score"
+        android:textColor="#FFFF6600"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:text="@string/Điemcao25"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <Button
+        android:id="@+id/button_start_question"
+        android:textColor="@color/black"
+        android:backgroundTint="#66CDAA"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="@string/Bắt_đầu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
